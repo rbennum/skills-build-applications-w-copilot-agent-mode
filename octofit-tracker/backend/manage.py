@@ -3,6 +3,8 @@
 import os
 import sys
 
+# Add the project directory to sys.path
+sys.path.append(os.path.join(os.path.dirname(__file__), 'octofit_tracker'))
 
 def main():
     """Run administrative tasks."""
